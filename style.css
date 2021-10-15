@@ -1,3 +1,16 @@
 body{
     background-color: gray;
+} 
+
+div{
+    background-color: royalblue;
+    border:5px black;
+}
+
+.blue-bg{
+    background-color:gold ;
+}
+
+div{
+    background-color: chartreuse;
 }
