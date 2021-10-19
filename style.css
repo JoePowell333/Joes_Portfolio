@@ -1,16 +1,57 @@
 body{
-    background-color: gray;
-} 
-
-div{
-    background-color: royalblue;
-    border:5px black;
+    /*background-color: blue; /* Backgroud for entire page */
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png); /* Image Background from URL */
+    /*background: linear-gradient(black, white); /*linear gradient background*/
+    /*background: radial-gradient(circle, blue, gold); /* radical gradient background*/
+    border-style: double outset; /*border stlye mixed */
+    border-width: 15px; /* border width */
+    border-color: black whitesmoke;/* blue top and bottom, gold left and right sides*/
+    border-radius: 10px; /* rounded border style */
+    margin: 15px; /* all margins are 15px */
+    outline-style: solid; /* outline style*/
+    outline-color: black; /* outline color*/
+    outline-offset: 5px; /* outline offset*/
+    outline-width: medium; /* outline width */
 }
 
-.blue-bg{
-    background-color:gold ;
+.title-bg{
+    text-align: center; /* text alignment center page */
+    text-shadow:2px 2px 5px black ; /* text shadow effect- blur*/
+    font-family: Arial; /* font style */
 }
 
-div{
-    background-color: chartreuse;
+.under-title-bg{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
+}
+
+.div-1{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
+}
+
+.div-2{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
+}
+
+.div-3{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
+}
+
+.div-4{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
+}
+
+.div-5{
+    text-shadow:2px 2px 5px black; /* text shadow effect- blur*/
+    text-align: center; /* text alignment center page */
+    font-family: Arial; /* font style */
 }
